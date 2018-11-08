@@ -5,12 +5,10 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
+@SpringBootApplication
+public class SpringLauncher {
 
-    @SpringBootApplication
-    @EnableAutoConfiguration
-    public class SpringLauncher {
-
-        public static void main(String[] args) {
-            SpringApplication.run(com.iesemilidarder.webveloper.SpringLauncher.class, args);
-        }
+    public static void main(String[] args) {
+        SpringApplication.run(com.iesemilidarder.webveloper.SpringLauncher.class, args);
     }
+}
